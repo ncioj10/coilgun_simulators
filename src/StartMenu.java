@@ -31,7 +31,7 @@ public class StartMenu  extends JApplet{
     public static void main(String[] args) {
         JFrame menuFrame = new JFrame("Menu");
         menuFrame.setContentPane(new StartMenu().menuPanel);
-        menuFrame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        menuFrame.setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
         menuFrame.pack();
         menuFrame.setVisible(true);
     }
